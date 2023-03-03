@@ -1,0 +1,159 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.coursesHomeAccueil{
+    background-image: url('coursesIMG/LTU_-_main_building.jpg');
+    background-size: cover;
+    background-position:center;
+}
+.coursesHomeAccueilContainer{
+    padding:8rem 5rem;
+    background-color: rgba(0, 0, 0,0.6);
+}
+.coursesHomeAccueilContainer h1{
+    font-size: 3rem;
+    color: white;
+}
+.coursesHomeAccueilContainer p{
+    width: 50%;
+    color: white;
+    margin-top: 1rem;
+    line-height: 2rem;
+}
+.coursesDescription{
+    padding: 5rem;
+}
+table{
+    width: 100%;
+    color: #020c18;
+}
+.tableOne,.tableTwoContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+.tableOne th{
+    background-color: #62c462;
+    padding: 1rem 2rem;
+}
+.tableOne td,.tableTwoContainer td{
+    background-color: #dcdcdc;
+    padding: 1rem 2rem;
+}
+.tableOne td ul{
+    margin: 0.5rem;
+}
+.tableOne td ul li{
+    margin-left: 2rem;
+}
+.tableTwo h3{
+    margin-top: 2rem;
+    color: #020c18;
+}
+button{
+    padding: 0.5rem 2rem;
+    margin-top: 2rem;
+    border: 0;
+    background-color: #62c462;
+    color: #020c18;
+}
+.tableTwoContainer  li{
+    margin: 1rem;
+}
+
+.textAnim{
+    opacity:0;
+   
+}
+.textAnimation{
+    transition: opacity 1s ease-in-out; 
+    animation-name:slidein3;
+    animation-duration: 1s;
+}
+@keyframes slidein3 {
+    from {
+      transform: translateY(50%);
+      opacity: 0;
+    }
+  
+    to {
+      transform: translateY(0%);
+      opacity: 1;
+    }
+  }
+@media only screen and (max-width:850px){
+    .navBar .navBarContainer .menu{
+        display:none;
+    }
+    .coursesHomeAccueilContainer p{
+        width: 80%;
+    }
+    .bars i{
+        display: block;
+    }
+}
+
+@media screen and (max-width:720px){
+    .navBar .navBarContainer{
+        padding:1rem 2rem;
+    }
+    .coursesHomeAccueilContainer{
+        padding:8rem 2rem; 
+    }
+    .coursesHomeAccueilContainer p{
+        width: 100%;
+    }
+    .coursesHomeAccueilContainer h1{
+        font-size: 2rem;
+        color: white;
+    }
+    .coursesDescription{
+        padding: 1rem;
+    }
+    .tableOne,.tableTwoContainer{
+        display: block;
+    }
+    .tableOne,.tableTwoContainer{
+        overflow-y: scroll;
+    }
+    .Upfooter{
+        display: block;
+        padding: 2rem;
+    }
+    .UpfooterOne{
+        width: 100%;
+    }
+  
+    .UpfooterTwo{
+        width: 100%;
+        margin-top: 2rem;
+    }
+    .Downfooter{
+        display: block;
+        width: 100%;
+        padding:2rem 2rem;
+        background-color: #050a0f;
+    }
+    .DownfooterOne{
+        width: 100%;
+        text-align: center;
+    }
+    .DownfooterTwo{
+        width: 100%;
+        margin-top: 1rem;
+        display: block;
+        margin-left:auto;
+        margin-right: auto;
+    }
+    .DownfooterTwo div{
+      text-align: center;
+    }
+}
+@media screen and (max-width:520px){
+    .navBar .navBarContainer img{
+        width: 50px;
+        height: 50px;
+    }
+}

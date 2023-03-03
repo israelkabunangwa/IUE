@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.contactHomeAccueil{
+    background-image: url('contactIMG/download.jfif');
+    background-size: cover;
+    background-position: center;
+}
+.contactHomeAccueilContainer{
+    background-color: rgba(0, 0, 0,0.6);
+    padding: 15rem 0rem 5rem 5rem;
+}
+.contactHomeAccueilContainer h1{
+    font-size: 3rem;
+    color: white;
+}
+.contactForm{
+    padding: 5rem;
+}
+.contactFormText{
+    text-align: center;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 2rem;
+}
+.contactFormText h1{
+    padding: 2rem;
+    color: #020c18;
+    line-height: 2rem;
+}
+.contactFormContainer{
+    display: flex;
+    justify-content: center;
+}
+.contactFormContainer form{
+    padding: 1rem;
+   width: 80%;
+}
+.contactFormContainer form input{
+    display: block;
+   width: 100%;
+   margin: 1rem 0rem;
+   padding: 2rem 0rem;
+   outline: none;
+   border: 0;
+   border-bottom: 1px solid gray;
+}
+.contactFormContainer form textarea{
+    display: block;
+   width: 100%;
+   padding: 3rem 0rem;
+   outline: none;
+   border: 0;
+   border-bottom: 1px solid gray;
+}
+.contactFormContainer button{
+    margin-top: 2rem;
+    padding: 1rem 2rem;
+    border: 0;
+    background-color: #020c18;
+    color: white;
+}
+@media only screen and (max-width:850px){
+    .navBar .navBarContainer .menu{
+        display:none;
+    }
+    .bars i{
+        display: block;
+    }
+    .contactFormText{
+        width: 80%;
+    }
+}
+@media screen and (max-width:720px){
+    .contactForm{
+        padding: 0rem;
+    }
+    .navBar .navBarContainer{
+        padding:1rem 2rem;
+    }
+    .contactFormText{
+        width: 90%;
+    }
+    .contactFormText{
+       margin-top: 2rem;
+    }
+ 
+    .Upfooter{
+        display: block;
+        padding: 2rem;
+    }
+    .UpfooterOne{
+        width: 100%;
+    }
+  
+    .UpfooterTwo{
+        width: 100%;
+        margin-top: 2rem;
+    }
+    .Downfooter{
+        display: block;
+        width: 100%;
+        padding:2rem 2rem;
+        background-color: #050a0f;
+    }
+    .DownfooterOne{
+        width: 100%;
+        text-align: center;
+    }
+    .DownfooterTwo{
+        width: 100%;
+        margin-top: 1rem;
+        display: block;
+        margin-left:auto;
+        margin-right: auto;
+    }
+    .DownfooterTwo div{
+      text-align: center;
+    }
+}
+@media screen and (max-width:520px){
+    .navBar .navBarContainer img{
+        width: 50px;
+        height: 50px;
+    }
+    .contactHomeAccueilContainer{
+        height: 80vh;
+        padding: 18rem 0rem 0rem 2rem;
+    }
+    .contactHomeAccueilContainer h1{
+        font-size: 2.5rem;
+    }
+}

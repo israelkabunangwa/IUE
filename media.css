@@ -1,0 +1,165 @@
+@media only screen and (max-width:992px){
+
+}
+
+@media only screen and (max-width:850px){
+    .navBar .navBarContainer .menu{
+        display: none;
+    }
+    .bars i{
+        display: block;
+    }
+    .globalDescription{
+        padding:3rem 20rem 3rem 0rem;
+        margin-top: 2rem;
+    
+    }
+}
+@media only screen and (max-width:720px){
+    
+    .navBar .navBarContainer{
+        padding:1rem;
+    }
+    .navBar .navBarContainer img{
+        width: 70px;
+        height: 70px;
+    }
+    .homeDescripton{
+        padding: 1rem;
+    }
+    .homeDescriptonTextContainer h1{
+        font-size: 2rem;
+    }
+    .homeDescriptonTextContainer p{
+        font-size: 1rem;
+        margin-top: 1rem;
+    }
+    .homeDescriptonTextContainer span{
+        margin-top: 1rem;
+    }
+    .aboutUsTitle h2{
+        font-size: 2rem;
+    }
+    .aboutUsTitle span{
+        width:10%;
+    }
+    .newsTitle h2{
+        font-size: 2rem;
+    }
+    .newsTitle span{
+        width:10%;
+    }
+    .newsAccueil{
+        display: block;
+        margin-top: 2rem; 
+    }
+    .newsAccueilDescription{
+        margin: 0rem;
+        margin-top: 1rem;
+        width: 100%;
+    }
+    .globalDescription{
+        padding:3rem 10rem 3rem 0rem;
+    }
+    .aboutUsDetails{
+        margin-top: 2rem;
+        display:block;
+        padding: 2rem;
+    }
+    .aboutUsDetailsLeft,.aboutUsDetailsRight{
+        width: 100%;
+    }
+    .newsLetter{
+        display: block;
+        margin-top: 4rem;
+    }
+    .newsLetterOne{
+        width: 100%;
+        margin: 0rem;
+    }
+    .newsLetterTwo{
+        width:100%;
+        margin: 0rem;
+    }
+    .Upfooter{
+        display: block;
+        padding: 5rem;
+    }
+    .UpfooterOne{
+        width: 100%;
+    }
+  
+    .UpfooterTwo{
+        width: 100%;
+        margin-top: 2rem;
+    }
+    .Downfooter{
+        display: block;
+        width: 100%;
+        padding:2rem 2rem;
+        background-color: #050a0f;
+    }
+    .DownfooterOne{
+        width: 100%;
+        text-align: center;
+    }
+    .DownfooterTwo{
+        width: 100%;
+        margin-top: 1rem;
+        display: block;
+        margin-left:auto;
+        margin-right: auto;
+    }
+    .DownfooterTwo div{
+      text-align: center;
+    }
+}
+@media screen and (max-width:520px){
+    .home{
+        height:80vh;
+    }
+    .navBar .navBarContainer img{
+        width: 50px;
+        height: 50px;
+    }
+    .globalDescription{
+        padding:1rem 1rem 1rem 0rem;
+        margin-top: 2rem;
+    
+    }
+    .globalDescription p{
+        padding: 2rem;
+        line-height: 1.5rem;
+        color: white;
+        font-size: 1rem;
+    }
+    .aboutUsDetails{
+        margin-top: 2rem;
+        display:block;
+        padding: 0rem;
+    }
+    .aboutUsDetails p{
+        padding: 1rem 2rem;
+        line-height: 1.8rem;
+    }
+    .news{
+        padding: 2rem;
+    }
+    .newsTitle h2{
+        font-size: 2rem;
+    }
+    .newsTitle span{
+        width:20%;
+    }
+    .Upfooter{
+        padding: 2rem;
+    }
+    .Downfooter{
+        padding:2rem 2rem;
+        
+    }
+    .DownfooterOne{
+        font-size: 1rem;
+    }
+}
+  

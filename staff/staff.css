@@ -1,0 +1,228 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.staffHomeAccueil{
+    background-image: url('staffIMG/pngtree-forest-on-the-side-of-qizhen-lake-ancient-bridge-zhejiang-university-image_1522307.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.staffHomeAccueilContainer{
+    background-color: rgba(0, 0, 0,0.6);
+    padding: 15rem 0rem 5rem 5rem;
+}
+.staffHomeAccueilContainer h1{
+    font-size: 3rem;
+    color: white;
+}
+.staffDescription{
+    padding: 5rem;
+}
+.staffDescription .rector{
+    display: flex;
+}
+
+.rectorIMG{
+    width: 50%;
+    padding: 2rem;
+}
+.rectorIMG img{
+    width: 100%;
+    object-fit: contain;
+}
+.rectorDetails{
+    width: 50%;
+    position: relative;
+}
+.rectorDetails h3{
+    font-size: 2rem;
+}
+.rectorDetails div{
+    position: absolute;
+    padding: 2rem;
+    bottom: 0;
+    line-height: 3rem;
+}
+.rectorDetails div span{
+    display: flex;
+}
+.rectorDetails div i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #DCDCDC;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    color: #006400;
+    margin-right: 0.5rem;
+}
+.rectorDetails div .rectorDetailsPara{
+    display: flex;
+    align-items: center;
+    height: 30px;
+}
+.workers h2{
+    margin: 1rem;
+    font-size: 2.5rem;
+}
+.workersContainerDetails{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.workersContainer{
+   display: flex;
+   width: 100%;
+}
+.workersContainer div{
+    width: 35%;
+    margin: 1rem;
+    background-color:#E8E8E8;
+}
+.workersContainer div img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.learnMoreWorkers{
+    display: flex;
+}
+.workersContainer h3{
+    margin-top: 2rem;
+}
+.learnMoreWorkers i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    color: #006400;
+    background-color: gray;
+    margin-right: 1rem;
+    padding: 0.5rem;
+}
+.workersFunction,.learnMoreWorkers{
+    margin-top: 2rem;
+}
+.workersContainerIMGdescription{
+    display: block;
+    padding: 1rem;
+}
+
+@media only screen and (max-width:850px){
+    .navBar .navBarContainer .menu{
+        display:none;
+    }
+    .bars i{
+        display: block;
+    }
+}
+@media screen and (max-width:720px){
+    .staffDescription .rector{
+        display:block;
+    }
+    .rectorIMG{
+        width: 100%;
+        padding: 0rem;
+    }
+    .rectorDetails{
+        width: 100%;
+        position: relative;
+    }
+    .rectorDetails div{
+        margin-top: 1rem;
+        padding: 0rem;
+        line-height: 2rem;
+        position: relative;
+    }
+    .workersContainer{
+        display: block;
+        width: 100%;
+     }
+     .workersContainer div{
+        width: 100%;
+        background-color:#E8E8E8;
+        margin: 0rem;
+        margin-top: 2rem;
+    }
+    .workers h2{
+        margin: 0rem;
+        font-size: 2.5rem;
+    }
+    .workers{
+        margin-top: 2rem;
+    }
+    .workersContainerDetails{
+        margin-top: 0rem;
+    }
+    .workersContainer h3,.workersFunction,.learnMoreWorkers{
+        margin-top: 0.5rem;
+    }
+    .navBar .navBarContainer{
+        padding:1rem 2rem;
+    }
+    .Upfooter{
+        display: block;
+        padding: 2rem;
+    }
+    .UpfooterOne{
+        width: 100%;
+    }
+  
+    .UpfooterTwo{
+        width: 100%;
+        margin-top: 2rem;
+    }
+    .Downfooter{
+        display: block;
+        width: 100%;
+        padding:2rem 2rem;
+        background-color: #050a0f;
+    }
+    .DownfooterOne{
+        width: 100%;
+        text-align: center;
+    }
+    .DownfooterTwo{
+        width: 100%;
+        margin-top: 1rem;
+        display: block;
+        margin-left:auto;
+        margin-right: auto;
+    }
+    .DownfooterTwo div{
+      text-align: center;
+    }
+}
+@media screen and (max-width:520px){
+    .staffHomeAccueilContainer{
+        height: 80vh;
+        padding: 18rem 0rem 0rem 2rem;
+    }
+   
+    .navBar .navBarContainer img{
+        width: 50px;
+        height: 50px;
+    }
+    .staffDescription{
+        padding: 2rem;
+    }
+    .rectorDetails div{
+        padding: 0rem;
+        line-height: 2rem;
+    }
+ 
+
+    .staffHomeAccueilContainer h1{
+        font-size: 2.5rem;
+    }
+    .rectorDetails h3{
+        font-size: 1.5rem;
+    }
+   
+   
+}
+
