@@ -3,6 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+:root{
+    --primaryColor: #020c18;
+}
 .contactHomeAccueil{
     background-image: url('contactIMG/download.jfif');
     background-size: cover;
@@ -28,7 +31,7 @@
 }
 .contactFormText h1{
     padding: 2rem;
-    color: #020c18;
+    color: var(--primaryColor);
     line-height: 2rem;
 }
 .contactFormContainer{
@@ -60,7 +63,7 @@
     margin-top: 2rem;
     padding: 1rem 2rem;
     border: 0;
-    background-color: #020c18;
+    background-color: var(--primaryColor);
     color: white;
 }
 @media only screen and (max-width:850px){

@@ -3,6 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+:root{
+    --primaryColor: #020c18;
+}
 .staffHomeAccueil{
     background-image: url('staffIMG/pngtree-forest-on-the-side-of-qizhen-lake-ancient-bridge-zhejiang-university-image_1522307.jpg');
     background-size: cover;
@@ -22,7 +25,6 @@
 .staffDescription .rector{
     display: flex;
 }
-
 .rectorIMG{
     width: 50%;
     padding: 2rem;
@@ -34,6 +36,7 @@
 .rectorDetails{
     width: 50%;
     position: relative;
+    color: var(--primaryColor);
 }
 .rectorDetails h3{
     font-size: 2rem;
@@ -52,8 +55,8 @@
     justify-content: center;
     align-items: center;
     background-color: #DCDCDC;
-    width: 30px;
-    height: 30px;
+    width: 2rem;
+    height: 2rem;
     border-radius: 50%;
     color: #006400;
     margin-right: 0.5rem;
@@ -75,6 +78,7 @@
 .workersContainer{
    display: flex;
    width: 100%;
+   color: var(--primaryColor);
 }
 .workersContainer div{
     width: 35%;
@@ -96,13 +100,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
     color: #006400;
     background-color: gray;
     margin-right: 1rem;
-    padding: 0.5rem;
+    border-radius: 50%;
 }
 .workersFunction,.learnMoreWorkers{
     margin-top: 2rem;

@@ -3,6 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+:root{
+    --primaryColor: #020c18;
+}
 .coursesHomeAccueil{
     background-image: url('coursesIMG/LTU_-_main_building.jpg');
     background-size: cover;
@@ -27,7 +30,7 @@
 }
 table{
     width: 100%;
-    color: #020c18;
+    color: var(--primaryColor);
 }
 .tableOne,.tableTwoContainer{
     display: flex;
@@ -50,14 +53,14 @@ table{
 }
 .tableTwo h3{
     margin-top: 2rem;
-    color: #020c18;
+    color: var(--primaryColor);
 }
 button{
     padding: 0.5rem 2rem;
     margin-top: 2rem;
     border: 0;
     background-color: #62c462;
-    color: #020c18;
+    color: var(--primaryColor);
 }
 .tableTwoContainer  li{
     margin: 1rem;
